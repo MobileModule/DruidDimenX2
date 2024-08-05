@@ -1,0 +1,9 @@
+ext {
+    androidBuild = [
+            versionName: "1.0.2",
+            versionCode: 2,
+    ]
+    GROUP = 'com.android.update'
+    POM_URL = 'http://localhost:8081/repository/druid/'
+    POM_PACKAGING = 'aar'
+}
