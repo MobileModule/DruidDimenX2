@@ -1,7 +1,7 @@
 ext {
     androidBuild = [
-            versionName: "1.0.2",
-            versionCode: 2,
+            versionName: "1.0.3",
+            versionCode: 3,
     ]
     GROUP = 'com.android.dimen'
     POM_URL = 'http://localhost:8081/repository/druid/'
