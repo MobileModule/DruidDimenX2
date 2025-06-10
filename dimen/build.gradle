@@ -4,7 +4,6 @@ apply plugin: 'maven-publish'
 android {
     namespace 'com.druid.dimen'
     compileSdkVersion androidVersions.compileSdkVersion
-    buildToolsVersion androidVersions.buildToolsVersion
 
     defaultConfig {
         minSdkVersion androidVersions.minSdkVersion
@@ -21,16 +20,5 @@ android {
     lintOptions {
         abortOnError false
         checkReleaseBuilds false
-    }
-}
-
-if (rootProject.file('gradle/publish-module.gradle').exists()) {
-    apply from: rootProject.file('gradle/publish-module.gradle')
-    publishing {
-        publications {
-            release(MavenPublication) {
-                artifactId = 'dimenx2'
-            }
-        }
     }
 }

@@ -4,6 +4,5 @@ ext {
             versionCode: 3,
     ]
     GROUP = 'com.android.dimen'
-    POM_URL = 'http://localhost:8081/repository/druid/'
     POM_PACKAGING = 'aar'
 }
